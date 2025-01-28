@@ -1,12 +1,15 @@
 import { Outlet } from 'react-router-dom';
 
-function Layout() {
-  return (
-    <div className='container'>
-      <Outlet></Outlet>
-      <footer>Este es nuestro footer</footer>
-    </div>
-  );
-}
+const Layout = () => {
+    return (
+        <div>
+            <header>Header</header>
+            <main>
+                <Outlet />
+            </main>
+            <footer>Footer</footer>
+        </div>
+    );
+};
 
 export default Layout;

@@ -6,6 +6,8 @@ import Contacto from './components/Contacto';
 import Blog from './components/Blog';
 import BlogCharacter from './components/BlogCharacter';
 import NotFound from './components/NotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
